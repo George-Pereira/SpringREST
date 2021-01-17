@@ -9,3 +9,8 @@ cache:
   - $HOME/.m2
   before_install:
     - chmod +x mvnw
+  addons:
+  apt:
+    packages:
+      - oracle-java11-installer
+ 
