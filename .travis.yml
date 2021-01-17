@@ -1,6 +1,6 @@
 dist: xenial
 language: java
-sudo: false
+sudo: true
 jdk: openjdk11
 install: true
 cache:
