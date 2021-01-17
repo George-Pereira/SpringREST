@@ -4,13 +4,11 @@ sudo: true
 jdk: openjdk11
 os: linux
 install: true
+before_install:
+  - chmod +x mvnw
 cache:
   directories:
   - $HOME/.m2
-  before_install:
-    - chmod +x mvnw
-  addons:
-  apt:
-    packages:
-      - oracle-java11-installer
+
+
  
