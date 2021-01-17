@@ -2,6 +2,7 @@ dist: xenial
 language: java
 sudo: true
 jdk: openjdk11
+os: linux
 install: true
 cache:
   directories:
