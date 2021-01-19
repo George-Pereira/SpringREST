@@ -20,6 +20,6 @@ public class Livrocontroller
 	})
 	public String hello() 
 	{
-		return "Olá Mundo";
+		return "Olá! Bem vindo a nossa Livraria! Essa mensagem está funcionando por meio do acesso de um endpoint de uma API REST!";
 	}
 }
