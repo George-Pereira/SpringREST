@@ -20,6 +20,6 @@ public class Livrocontroller
 	})
 	public String hello() 
 	{
-		return "Olá! Bem Vindo a Livraria!";
+		return "Olá! Bem Vindo a Livraria! Esta mensagem foi gerada por uma API REST neste endpoint";
 	}
 }
