@@ -20,6 +20,6 @@ public class Livrocontroller
 	})
 	public String hello() 
 	{
-		return "Olá Mundo";
+		return "Olá! Bem Vindo a Livraria!";
 	}
 }
