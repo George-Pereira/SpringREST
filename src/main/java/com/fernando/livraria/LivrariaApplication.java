@@ -7,8 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@ComponentScan("com.fernando.controller")
-@ComponentScan("com.fernando.config")
+@ComponentScan("com.fernando.livraria")
 @EnableSwagger2
 
 public class LivrariaApplication {

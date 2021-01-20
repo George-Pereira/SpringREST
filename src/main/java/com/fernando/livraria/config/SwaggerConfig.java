@@ -1,4 +1,4 @@
-package com.fernando.config;
+package com.fernando.livraria.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
