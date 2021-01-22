@@ -1,10 +1,8 @@
 package com.fernando.livraria.usuario.enums;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
-@AllArgsConstructor
 public enum Genero 
 {
 	MASCULINO("Masculino"), FEMININO("Feminino");
