@@ -11,7 +11,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import com.fernando.livraria.entity.Auditoria;
 import com.fernando.livraria.livro.entity.Livro;
 
 import lombok.Data;
@@ -19,7 +18,7 @@ import lombok.Data;
 @Data
 @Entity
 
-public class Editora extends Auditoria
+public class Editora 
 {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
