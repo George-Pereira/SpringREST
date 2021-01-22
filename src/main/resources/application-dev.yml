@@ -1,16 +1,34 @@
 spring:
-  datasource:    url: jdbc:h2:mem:livraria_dev;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+
+    datasource:
+      url: jdbc:h2:mem:livraria_dev;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+      driver-class-name: org.h2.Driver
+      username: sa
+      password: 
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      show-sql: true
+      properties:
+        hibernate:
+        format_sql: true
+    h2:
+      console:
+        enabled: true
+  datasource:
+    url: jdbc:h2:mem:livraria_dev;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     driver-class-name: org.h2.Driver
     username: sa
     password:
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
-    properties:      hibernate:
+    properties:
+      hibernate:
       format-sql: true
   h2:
     console:
-      enabled: true     
+      enabled: true 
+
 logging:
   level:
     com:
