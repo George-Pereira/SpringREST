@@ -10,7 +10,6 @@ import javax.persistence.ManyToOne;
 
 import com.fernando.livraria.autor.entity.Autor;
 import com.fernando.livraria.editora.entity.Editora;
-import com.fernando.livraria.entity.Auditoria;
 import com.fernando.livraria.usuario.entity.Usuario;
 
 import lombok.Data;
@@ -18,7 +17,7 @@ import lombok.Data;
 @Data	
 @Entity
 
-public class Livro extends Auditoria
+public class Livro 
 {
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
