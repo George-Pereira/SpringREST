@@ -13,7 +13,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import com.fernando.livraria.entity.Auditoria;
 import com.fernando.livraria.livro.entity.Livro;
 import com.fernando.livraria.usuario.enums.Genero;
 
@@ -22,7 +21,7 @@ import lombok.Data;
 @Data
 @Entity
 
-public class Usuario extends Auditoria
+public class Usuario 
 {
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
